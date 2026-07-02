@@ -23,8 +23,8 @@ header {
 
     background-color: #821515;
     color: rgb(191, 145, 7);
-
     position: fixed;
+    
     top: 0;
     left: 0;
     z-index: 1000;
@@ -57,10 +57,25 @@ main {
     width: 1200px;
     margin: 0 auto;
     margin-top: 100px;
-
     overflow: auto;
 
     background-color: #621010;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+
+    padding: 10px;
+
+    text-align: center;
+
+    background-color: #1f1f1f;
+    color: rgb(211, 162, 36);
+
+    font-weight: bold;
 }
 
 /* album */
